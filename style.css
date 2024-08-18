@@ -1,0 +1,1448 @@
+@media screen{
+  html{
+    scrollbar-width: none;
+  }
+  body::-webkit-scrollbar{
+    display: none;
+  }
+  body{
+    background: linear-gradient(to top, #00FFFB, #00B2FF, #0062FF);
+    overflow: none;
+    -webkit-overflow-scrolling: touch; 
+    scrollbar-width: none;
+    height: 1648vh;
+  }
+.fullscreen {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width:  25vh;
+    height: 5vh;
+    border-radius: 2vh;
+    background: linear-gradient(to bottom, #00c6ff, #0072ff);
+}
+.fullscreen p{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate( 0, -50%);
+}
+  
+.intro{
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+}
+  .intro span{
+    font-family: "Pacifico", serif;
+    padding: 100% 0 100% 0;
+    color: #fffffa;
+  }
+  .intro span:nth-last-of-type(1){
+    font-family: "Pacifico", serif;
+    padding: 100% 0 200% 0;
+    color: #fffffa;
+  }
+
+/*slide incontro*/
+.start{
+    text-align: center;
+    position: relative;
+    width: 98%;
+    height: 62vh;
+    border-radius: 3vh;
+    background: linear-gradient( 150deg, rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255)), rgb(0, 100, 255);
+    border: 1vw solid black;
+  }
+  .start h2{
+    position: relative;
+    bottom: 2vh;
+    text-align: center;
+    justify-content: center;
+    font-family: "Pacifico", serif;
+  }
+  .start p:nth-of-type(1){
+    position: relative;
+    bottom: 4.5vh;
+    left: 1vh;
+    text-align: center;
+    justify-content: center;
+    width: 96%;
+    font-family: "playfair display", serif;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  .start img{
+    position: relative;
+    bottom: 23vh;
+    right: 0.9vw;
+    width: 50%;
+    border: solid black;
+    border-radius: 2vh;
+  }
+  .start video{
+    position: relative;
+    bottom: 4.5vh;
+    width: 30vw;
+    height: 30vh;
+    border: solid black;
+    border-radius: 2vh;
+  } 
+  .start p:nth-of-type(2){
+    position: relative;
+    bottom: 23.5vh;
+    left: 2vw;
+    width: 45.5%;
+    padding: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 4.5vw;
+    border: solid black;
+    border-radius: 2vh;
+    font-family: "pacifico", serif;
+    font-size: 80%;
+    font-weight: normal;
+  }
+
+.continuo{
+  text-align: center;
+  position: relative;
+  top: 5vh;
+  width: 98%;
+  height: 132vh;
+  border-radius: 3vh;
+  background: linear-gradient( 150deg, rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255)), rgb(0, 100, 255);
+  border: 1vw solid black;
+}
+  .continuo h2{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-family: "Pacifico", serif;
+  }
+  .pc1{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    height: 30.7vh;
+  }
+  .pc1 p{
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+    height: fit-content;
+    border: solid black;
+    padding: 1vh;
+    margin: 0 1vw 0 1vw;
+    border-radius: 2vh;
+    background: linear-gradient( 150deg, rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255)), rgb(0, 100, 255);
+
+  }
+  .pc1 img{
+    margin-right: 1vw;
+    margin-left: 1vw;
+    position: relative;  
+    width: 30vw;
+    height: 30vh;
+    border: solid black;
+    border-radius: 2vh;
+    
+  }
+  .pc2{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: row-reverse;
+    width: 96%;
+    height: 30.7vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .pc2 p{
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+    height: fit-content;
+    border: solid black;
+    padding: 1vh;
+    margin: 0 1vw 0 1vw;
+    border-radius: 2vh;
+    background: linear-gradient( 150deg, rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255)), rgb(0, 100, 255);
+
+  }
+  .pc2 img{
+    margin-right: 1vw;
+    margin-left: 1vw;
+    position: relative;  
+    width: 30vw;
+    height: 30vh;
+    border: solid black;
+    border-radius: 2vh;
+    
+  }
+  .pc3{
+    border-radius: 2vh;
+    border: solid black;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 94%;
+    height: fit-content;
+    background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+  }
+  .pc3 h2{
+    position: relative;
+    left: 50%;
+    bottom: 1.5vh;
+    transform: translate(-50%);
+    font-family: "pacifico", serif;
+    width: 100%;
+  }
+  .pc3 p{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 4.5vh;
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+  }
+  .pc3 img:nth-of-type(1){
+    position: relative;
+    bottom: 3vh;
+    width: 30vw;
+    height: 30vh;
+    margin-right: 1vh;
+    border: solid black;
+    border-radius: 2vh;
+  }
+  .pc3 img:nth-of-type(2){
+    position: relative;
+    bottom: 3vh;
+    width: 30vw;
+    height: 30vh;
+    margin-left: 1vh;
+    border: solid black;
+    border-radius: 2vh;
+  }
+
+    .scritta_viaggio{
+      position: relative;
+      top: 8vh;
+      left: 50%;
+      width: 94%;
+      transform: translate(-50%);
+      font-family: "pacifico", serif;
+      font-weight: bold;
+      padding: 1vh;
+      text-align: center;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      background: linear-gradient( to top,rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+    }
+    .remove{
+      opacity: 0;
+      animation: giro 5s;
+    }
+      @keyframes giro {
+        100%{
+          transform:rotate(15deg);
+        }
+        50%{
+          transform: rotate(10deg);
+          bottom: 2%;
+        }
+      }
+/* Stile per il contenitore del pacco regalo */
+.pacco-regalo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5vh;
+}
+/* Fiocco verticale */
+.fiocco-verticale {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20px;
+    height: 100%;
+    background-color: white; /* Colore del fiocco */
+    transform: translateX(-50%);
+    box-shadow: -3vw 0.5vh 2vh rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+/* Fiocco orizzontale */
+.fiocco-orizzontale {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: white; /* Colore del fiocco */
+    transform: translateY(-50%);
+    box-shadow: -0.5vw 2.4vh 2vh rgba(0, 0, 0, 0.5);
+}
+
+/* Nodo dei fiocchi */
+.nodo-fiocco1 {
+    position: absolute;
+    top: 47%;
+    left: 36%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+.nodo-fiocco1 div{
+  position: relative;
+  top: 16%;
+  left: 22%;
+  width: 5vw;
+  height: 9vh;
+  background-color: red;
+  border-radius: 50%;
+  transform: rotate(-1deg);
+}
+.nodo-fiocco2 {
+  position: absolute;
+  top: 34%;
+  left: 53%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(235deg);
+  z-index: 3;
+}
+.nodo-fiocco2 div{
+position: relative;
+top: 15%;
+left: 19%;
+width: 5vw;
+height: 9vh;
+background-color: red;
+border-radius: 50%;
+transform: rotate(1deg);
+}
+
+/*primo mese*/
+.pre-primo-mese{
+  position: relative;
+  top: 10vh;
+  width: 98%;
+  height: 60vh;
+  border: 1vw solid black;
+  border-radius: 2vh;
+  z-index: 10;
+  transition: all linear 0.8s;
+  background: linear-gradient(to top, rgb(250, 100, 0), red); /* Colore del pacco */
+    
+}
+  .primo-mese{
+    text-align: center;
+    position: relative;
+    bottom: 51vh;
+    width: 98%;
+    height: 60vh;
+    background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+    border: 1vw solid black;
+    border-radius: 2vh;
+  }
+  .primo-mese  h2{
+    position: relative;
+    bottom: 2.5vh;
+    font-family: "pacifico", serif;
+    font-size: 180%;
+  }
+  .primo-mese  h3{
+    position: relative;
+    bottom: 6.5vh;
+    font-family: "pacifico", serif;
+  }
+  .primo-mese  p{
+    position: relative;
+    bottom: 8vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-weight: bold;
+  }
+  .primo-mese  img:nth-of-type(1){
+    position: relative;
+    bottom: 7.5vh;
+    border: 1vw solid black;
+    border-radius: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 32vw;
+    height: 30vh;
+  }
+  .primo-mese  img:nth-of-type(2){
+    position: relative;
+    bottom: 4.5vh;
+    border: 1vw solid black;
+    border-radius: 2vh;
+    margin: 1vh;
+    width: 30vw;
+    height: 30vh;
+  }
+/*secondo mese*/
+.pre-secondo-mese{
+  position: relative;
+  bottom: 39vh;
+  width: 98%;
+  height: 60vh;
+  border: 1vw solid black;
+  border-radius: 2vh;
+  z-index: 10;
+  transition: all linear 0.5s;
+  background: linear-gradient(to top, #fff687, #f6416c, #f6416c, #f6416c); /* Colore del pacco */  
+}
+  .nodo-fiocco1-secondo {
+    position: absolute;
+    top: 47%;
+    left: 36%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    z-index: 3;
+  }
+  .nodo-fiocco1-secondo div{
+    position: relative;
+    top: 16%;
+    left: 22%;
+    width: 5vw;
+    height: 9vh;
+    background-color: #f6416c;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-secondo {
+    position: absolute;
+    top: 34%;
+    left: 53%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(235deg);
+    z-index: 3;
+  }
+  .nodo-fiocco2-secondo div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #f6416c;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .secondo-mese{
+      text-align: center;
+      position: relative;
+      bottom: 100vh;
+      width: 98%;
+      height: 60vh;
+      background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+      border: 1vw solid black;
+      border-radius: 2vh;}
+    .secondo-mese h2{
+      position: relative;
+      bottom: 2.5vh;
+      font-family: "pacifico", serif;
+      font-size: 180%;
+    }
+    .secondo-mese h3{
+      position: relative;
+      bottom: 6.5vh;
+      font-family: "pacifico", serif;
+    }
+    .secondo-mese p{
+      position: relative;
+      bottom: 8vh;
+      margin-left: 1vh;
+      margin-right: 1vh;
+      font-weight: bold;
+    }
+    .secondo-mese img:nth-of-type(1){
+      position: relative;
+      bottom: 7.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+      width: 32vw;
+      height: 30vh;
+    }
+    .secondo-mese video{
+      position: relative;
+      bottom: 4.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin: 1vh;
+      width: 30vw;
+      height: 30vh;
+    }
+
+/*terzo mese*/
+.pre-terzo-mese{
+  position: relative;
+  bottom: 88vh;
+  width: 98%;
+  height: 60vh;
+  border: 1vw solid black;
+  border-radius: 2vh;
+  z-index: 10;
+  transition: all linear 0.5s;
+  background: linear-gradient(to top, #fccf31, #f55555, #f55555, #f55555);
+}
+  .nodo-fiocco1-terzo {
+    position: absolute;
+    top: 47%;
+    left: 36%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    z-index: 3;
+  }
+  .nodo-fiocco1-terzo div{
+    position: relative;
+    top: 16%;
+    left: 22%;
+    width: 5vw;
+    height: 9vh;
+    background-color: #f55555;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-terzo {
+    position: absolute;
+    top: 34%;
+    left: 53%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(235deg);
+    z-index: 3;
+  }
+  .nodo-fiocco2-terzo div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #f55555;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .terzo-mese{
+      text-align: center;
+      position: relative;
+      bottom: 149vh;
+      width: 98%;
+      height: 60vh;
+      background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+      border: 1vw solid black;
+      border-radius: 2vh;}
+    .terzo-mese h2{
+      position: relative;
+      bottom: 2.5vh;
+      font-family: "pacifico", serif;
+      font-size: 180%;
+    }
+    .terzo-mese h3{
+      position: relative;
+      bottom: 6.5vh;
+      font-family: "pacifico", serif;
+    }
+    .terzo-mese p{
+      position: relative;
+      bottom: 8vh;
+      margin-left: 1vh;
+      margin-right: 1vh;
+      font-weight: bold;
+    }
+    .terzo-mese img:nth-of-type(1){
+      position: relative;
+      bottom: 8.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+      width: 34vw;
+      height: 30vh;
+    }
+    .terzo-mese  img:nth-of-type(2){
+      position: relative;
+      bottom: 8.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin: 1vh;
+      width: 34vw;
+      height: 30vh;
+    }
+
+/*quarto mese*/
+.remove-quarto{
+opacity: 0;
+animation: quarto 6s;
+bottom: 4%;
+}
+@keyframes quarto {
+100%{
+transform: rotate(15deg);
+bottom: 2%;
+}
+50%{
+transform: rotate(15deg);
+}
+}
+.pre-quarto-mese{
+  position: relative;
+  bottom: 137vh;
+  width: 98%;
+  height: 60vh;
+  border: 1vw solid black;
+  border-radius: 2vh;
+  z-index: 10;
+  transition: all linear 0.5s;
+  background: linear-gradient(to top, #fdeb71, #f8d800, #f8d800, #f8d800);
+}
+  .nodo-fiocco1-quarto {
+    position: absolute;
+    top: 47%;
+    left: 36%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    z-index: 3;
+  }
+  .nodo-fiocco1-quarto div{
+    position: relative;
+    top: 16%;
+    left: 22%;
+    width: 5vw;
+    height: 9vh;
+    background-color: #f8d800;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-quarto {
+    position: absolute;
+    top: 34%;
+    left: 53%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(235deg);
+    z-index: 3;
+  }
+  .nodo-fiocco2-quarto div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #f8d800;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .quarto-mese{
+      text-align: center;
+      position: relative;
+      bottom: 198vh;
+      width: 98%;
+      height: 60vh;
+      background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+      border: 1vw solid black;
+      border-radius: 2vh;
+    }
+    .quarto-mese  h2{
+      position: relative;
+      bottom: 2.5vh;
+      font-family: "pacifico", serif;
+      font-size: 180%;
+    }
+    .quarto-mese  h3{
+      position: relative;
+      bottom: 6.5vh;
+      font-family: "pacifico", serif;
+    }
+    .quarto-mese  p{
+      position: relative;
+      bottom: 8vh;
+      margin-left: 1vh;
+      margin-right: 1vh;
+      font-weight: bold;
+    }
+    .quarto-mese  img:nth-of-type(1){
+      position: relative;
+      bottom: 4.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+      width: 32vw;
+      height: 30vh;
+    }
+    .quarto-mese  img:nth-of-type(2){
+    position: relative;
+    bottom: 7.5vh;
+    border: 1vw solid black;
+    border-radius: 2vh;
+    margin: 1vh;
+    width: 32vw;
+    height: 30vh;
+    }
+
+/*quinto mese*/ 
+.pre-quinto-mese{
+  position: relative;
+  bottom: 186vh;
+  width: 98%;
+  height: 60vh;
+  border: 1vw solid black;
+  border-radius: 2vh;
+  z-index: 10;
+  transition: all linear 0.5s;
+  background: linear-gradient(to top, #90f7ec, #32ccbc, #32ccbc, #32ccbc);
+}
+  .nodo-fiocco1-quinto {
+    position: absolute;
+    top: 47%;
+    left: 36%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    z-index: 3;
+  }
+  .nodo-fiocco1-quinto div{
+    position: relative;
+    top: 16%;
+    left: 22%;
+    width: 5vw;
+    height: 9vh;
+    background-color: #32ccbc;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-quinto {
+    position: absolute;
+    top: 34%;
+    left: 53%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(235deg);
+    z-index: 3;
+  }
+  .nodo-fiocco2-quinto div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #32ccbc;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .quinto-mese{
+      text-align: center;
+      position: relative;
+      bottom: 247vh;
+      width: 98%;
+      height: 60vh;
+      background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+      border: 1vw solid black;
+      border-radius: 2vh;}
+    .quinto-mese h2{
+      position: relative;
+      bottom: 2.5vh;
+      font-family: "pacifico", serif;
+      font-size: 180%;
+    }
+    .quinto-mese h3{
+      position: relative;
+      bottom: 6.5vh;
+      font-family: "pacifico", serif;
+    }
+    .quinto-mese p{
+      position: relative;
+      bottom: 8vh;
+      margin-left: 1vh;
+      margin-right: 1vh;
+      font-weight: bold;
+    }
+    .quinto-mese img:nth-of-type(1){
+      position: relative;
+      bottom: 6.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+      width: 34vw;
+      height: 30vh;
+    }
+    .quinto-mese video{
+      position: relative;
+      bottom: 3.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin: 1vh;
+      width: 30vw;
+      height: 30vhterzo  
+    }
+
+/*sesto mese*/
+.pre-sesto-mese{
+  position: relative;
+  bottom: 235vh;
+  width: 98%;
+  height: 94vh;
+  border: 1vw solid black;
+  border-radius: 2vh;
+  z-index: 10;
+  transition: all linear 0.5s;
+  background: linear-gradient(to top, #abdcff, #0396ff, #0396ff);
+}
+  .nodo-fiocco1-sesto {
+    position: absolute;
+    top: 48%;
+    left: 36%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    z-index: 3;
+  }
+  .nodo-fiocco1-sesto div{
+    position: relative;
+    top: 16%;
+    left: 22%;
+    width: 5vw;
+    height: 9vh;
+    background-color: #0396ff;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-sesto {
+  position: absolute;
+  top: 40%;
+  left: 53%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(235deg);
+  z-index: 3;
+  }
+  .nodo-fiocco2-sesto div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color:  #0396ff;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .sesto-mese{
+      text-align: center;
+      position: relative;
+      bottom: 330vh;
+      width: 98%;
+      height: 94vh;
+      background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+      border: 1vw solid black;
+      border-radius: 2vh;}
+    .sesto-mese h2{
+      position: relative;
+      bottom: 2.5vh;
+      font-family: "pacifico", serif;
+      font-size: 180%;
+    }
+    .sesto-mese h3{
+      position: relative;
+      bottom: 6.5vh;
+      font-family: "pacifico", serif;
+    }
+    .sesto-mese p{
+      position: relative;
+      bottom: 7vh;
+      margin-left: 1vh;
+      margin-right: 1vh;
+      font-weight: bold;
+    }
+    .sesto-mese img:nth-of-type(1){
+      position: relative;
+      bottom: 7.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+      width: 50vw;
+      height: 27vh;
+    }
+    .sesto-mese video{
+      position: relative;
+      bottom: 7vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin: 1vh;
+      width: 30vw;
+      height: 30vh;  
+    }
+
+/*settimo mese*/
+.pre-settimo-mese{
+position: relative;
+bottom: 318vh;
+width: 98%;
+height: 69vh;
+border: 1vw solid black;
+border-radius: 2vh;
+z-index: 10;
+transition: all linear 1s;
+background: linear-gradient(to top,#e2b0ff, #43cbff, #43cbff, #43cbff);
+}
+  .nodo-fiocco1-settimo {
+  position: absolute;
+  top: 48%;
+  left: 36%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  z-index: 3;
+  }
+  .nodo-fiocco1-settimo div{
+  position: relative;
+  top: 16%;
+  left: 22%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #43cbff;
+  border-radius: 50%;
+  transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-settimo {
+  position: absolute;
+  top: 34%;
+  left: 53%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(235deg);
+  z-index: 3;
+  }
+  .nodo-fiocco2-settimo div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #43cbff;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .settimo-mese{
+      text-align: center;
+      position: relative;
+      bottom: 388vh;
+      width: 98%;
+      height: 69vh;
+      background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+      border: 1vw solid black;
+      border-radius: 2vh;
+    }
+    .settimo-mese  h2{
+      position: relative;
+      bottom: 2.5vh;
+      font-family: "pacifico", serif;
+      font-size: 180%;
+    }
+    .settimo-mese  h3{
+      position: relative;
+      bottom: 6.5vh;
+      font-family: "pacifico", serif;
+    }
+    .settimo-mese  p{
+      position: relative;
+      bottom: 7vh;
+      margin-left: 1vh;
+      margin-right: 1vh;
+      font-weight: bold;
+    }
+    .settimo-mese  img:nth-of-type(1){
+      position: relative;
+      bottom: 7.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+      width: 32vw;
+      height: 30vh;
+    }
+    .settimo-mese  img:nth-of-type(2){
+      position: relative;
+      bottom: 4.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin: 1vh;
+      width: 40vw;
+      height: 30vh;
+    }
+
+/*ottavo mese*/
+.pre-ottavo-mese{
+  position: relative;
+  bottom: 379vh;
+  width: 98%;
+  height: 60vh;
+  border: 1vw solid black;
+  border-radius: 2vh;
+  z-index: 10;
+  transition: all linear 2s;
+  background: linear-gradient(to top, #9f44d3, #e2b0ff, #e2b0ff, #e2b0ff);
+}
+  .nodo-fiocco1-ottavo {
+    position: absolute;
+    top: 48%;
+    left: 36%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    z-index: 3;
+  }
+  .nodo-fiocco1-ottavo div{
+    position: relative;
+    top: 16%;
+    left: 22%;
+    width: 5vw;
+    height: 9vh;
+    background-color: #e2b0ff;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-ottavo {
+    position: absolute;
+    top: 34%;
+    left: 53%;
+    width: 10vw;
+    height: 12vh;
+    background-color: white;
+    border-radius: 50%;
+    transform: rotate(235deg);
+    z-index: 3;
+  }
+  .nodo-fiocco2-ottavo div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #e2b0ff;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .ottavo-mese{
+      text-align: center;
+      position: relative;
+      bottom: 440vh;
+      width: 98%;
+      height: 60vh;
+      background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+      border: 1vw solid black;
+      border-radius: 2vh;}
+    .ottavo-mese h2{
+      position: relative;
+      bottom: 2.5vh;
+      font-family: "pacifico", serif;
+      font-size: 180%;
+    }
+    .ottavo-mese h3{
+      position: relative;
+      bottom: 6.5vh;
+      font-family: "pacifico", serif;
+    }
+    .ottavo-mese p{
+      position: relative;
+      bottom: 8vh;
+      margin-left: 1vh;
+      margin-right: 1vh;
+      font-weight: bold;
+    }
+    .ottavo-mese img:nth-of-type(1){
+      position: relative;
+      bottom: 7.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+      width: 32vw;
+      height: 30vh;
+    }
+    .ottavo-mese video{
+      position: relative;
+      bottom: 4.5vh;
+      border: 1vw solid black;
+      border-radius: 2vh;
+      margin: 1vh;
+      width: 30vw;
+      height: 30vhterzo  
+    }
+
+/*nono mese*/
+.pre-nono-mese{
+position: relative;
+bottom: 432vh;
+width: 98%;
+height: 62vh;
+border: 1vw solid black;
+border-radius: 2vh;
+z-index: 10;
+transition: all linear 0.5s;
+background: linear-gradient(to top, #43cbff, #9708cc, #9708cc, #9708cc);
+}
+  .nodo-fiocco1-nono {
+  position: absolute;
+  top: 48%;
+  left: 36%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  z-index: 3;
+  }
+  .nodo-fiocco1-nono div{
+  position: relative;
+  top: 16%;
+  left: 22%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #9708cc;
+  border-radius: 50%;
+  transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-nono {
+  position: absolute;
+  top: 34%;
+  left: 53%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(235deg);
+  z-index: 3;
+  }
+  .nodo-fiocco2-nono div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #9708cc;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .nono-mese{
+    text-align: center;
+    position: relative;
+    bottom: 495vh;
+    width: 98%;
+    height: 62vh;
+    background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+    border: 1vw solid black;
+    border-radius: 2vh;
+    }
+    .nono-mese  h2{
+    position: relative;
+    bottom: 2.5vh;
+    font-family: "pacifico", serif;
+    font-size: 180%;
+    }
+    .nono-mese  h3{
+    position: relative;
+    bottom: 6.5vh;
+    font-family: "pacifico", serif;
+    }
+    .nono-mese  p{
+    position: relative;
+    bottom: 9vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-weight: bold;
+    }
+    .nono-mese  img:nth-of-type(1){
+    position: relative;
+    bottom: 10vh;
+    border: 1vw solid black;
+    border-radius: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 65vw;
+    height: 30vh;
+    }
+                  
+/*decimo mese*/
+.pre-decimo-mese{
+position: relative;
+bottom: 487vh;
+width: 98%;
+height: 67vh;
+border: 1vw solid black;
+border-radius: 2vh;
+z-index: 10;
+transition: all linear 0.5s;
+background: linear-gradient(to top, #172d9d, #00a9f2, #00a9f2, #00a9f2);
+}
+  .nodo-fiocco1-decimo {
+  position: absolute;
+  top: 48%;
+  left: 36%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  z-index: 3;
+  }
+  .nodo-fiocco1-decimo div{
+  position: relative;
+  top: 16%;
+  left: 22%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #00a9f2;
+  border-radius: 50%;
+  transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-decimo {
+  position: absolute;
+  top: 34%;
+  left: 53%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(235deg);
+  z-index: 3;
+  }
+  .nodo-fiocco2-decimo div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color: #00a9f2;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .decimo-mese{
+    text-align: center;
+    position: relative;
+    bottom: 555vh;
+    width: 98%;
+    height: 67vh;
+    background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+    border: 1vw solid black;
+    border-radius: 2vh;}
+    .decimo-mese h2{
+    position: relative;
+    bottom: 2.5vh;
+    font-family: "pacifico", serif;
+    font-size: 180%;
+    }
+    .decimo-mese h3{
+    position: relative;
+    bottom: 6.5vh;
+    font-family: "pacifico", serif;
+    }
+    .decimo-mese p{
+    position: relative;
+    bottom: 7vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-weight: bold;
+    }
+    .decimo-mese img:nth-of-type(1){
+    position: relative;
+    bottom: 8.5vh;
+    border: 1vw solid black;
+    border-radius: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 40vw;
+    height: 20vh;
+    }
+    .decimo-mese video{
+    position: relative;
+    bottom: 5.5vh;
+    border: 1vw solid black;
+    border-radius: 2vh;
+    margin: 1vh;
+    width: 30vw;
+    height: 30vhterzo  
+    }
+
+/*undicesimo mese*/
+.pre-undicesimo-mese{
+position: relative;
+bottom: 546vh;
+width: 98%;
+height: 58vh;
+border: 1vw solid black;
+border-radius: 2vh;
+z-index: 10;
+transition: all linear 0.5s;
+background: linear-gradient(to top, red, red, #172d9d);
+}
+  .nodo-fiocco1-undicesimo{
+  position: absolute;
+  top: 48%;
+  left: 36%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  z-index: 3;
+  }
+  .nodo-fiocco1-undicesimo div{
+  position: relative;
+  top: 16%;
+  left: 22%;
+  width: 5vw;
+  height: 9vh;
+  background-color: red;
+  border-radius: 50%;
+  transform: rotate(-1deg);
+  }
+  .nodo-fiocco2-undicesimo {
+  position: absolute;
+  top: 34%;
+  left: 53%;
+  width: 10vw;
+  height: 12vh;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(235deg);
+  z-index: 3;
+  }
+  .nodo-fiocco2-undicesimo div{
+  position: relative;
+  top: 15%;
+  left: 19%;
+  width: 5vw;
+  height: 9vh;
+  background-color: red;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  }
+    .undicesimo-mese{
+    text-align: center;
+    position: relative;
+    bottom: 605vh;
+    width: 98%;
+    height: 58vh;
+    background: linear-gradient( to top, rgb(0, 150, 255),rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255));
+    border: 1vw solid black;
+    border-radius: 2vh;
+    }
+    .undicesimo-mese  h2{
+    position: relative;
+    bottom: 2.5vh;
+    font-family: "pacifico", serif;
+    font-size: 180%;
+    }
+    .undicesimo-mese  h3{
+    position: relative;
+    bottom: 6.5vh;
+    font-family: "pacifico", serif;
+    }
+    .undicesimo-mese  p{
+    position: relative;
+    bottom: 8vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-weight: bold;
+    }
+    .undicesimo-mese  img:nth-of-type(1){
+    position: relative;
+    bottom: 7.5vh;
+    border: 1vw solid black;
+    border-radius: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 32vw;
+    height: 30vh;
+    }
+    .undicesimo-mese  img:nth-of-type(2){
+    position: relative;
+    bottom: 4.5vh;
+    border: 1vw solid black;
+    border-radius: 2vh;
+    margin: 1vh;
+    width: 30vw;
+    height: 30vh;
+    }
+
+/*dodicesimo mese/finale*/
+.dodicesimo-mese{
+text-align: center;
+position: relative;
+bottom: 580vh;
+width: 98%;
+border: 1vw solid black;
+border-radius: 2vh;
+background: linear-gradient( 150deg, rgb(0, 200, 255), rgb(0, 180, 255), rgb(0, 150, 255)), rgb(0, 100, 255);
+}
+  .dodicesimo-mese h2{
+  position: relative;
+  bottom: 1.5vh;
+  font-family: "pacifico", serif;
+  font-size: 180%;
+  }
+  .dodicesimo-mese h3{
+  position: relative;
+  bottom: 4vh;
+  font-family: "pacifico", serif;
+  font-size: medium;
+  }
+  .dodicesimo-mese p{
+  position: relative;
+  left: 50%;
+  bottom: 4.5vh;
+  transform: translate(-50%);
+  font-weight: bold;
+  width: 98%;
+  }
+}
